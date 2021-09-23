@@ -1,0 +1,92 @@
+.footer {
+	background-color: #273139;
+	color: var(--white);
+}
+
+.footer__container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.newsletter__title {
+	font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 2.6rem;
+	font-style: italic;
+	padding: 1rem 0;
+    text-align: center;
+}
+
+.newsletter__text {
+	margin: 1rem 0 2rem 0;
+}
+
+.newsletter__input {
+	display: block;
+	width: 100%;
+	max-width: 30.6rem;
+	background: #fff;
+    min-height: 4.0rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding-left: 1.6rem;
+}
+
+.newsletter__button {
+	background-color: #1a1919;
+    border: 0.1rem solid #1a1919;
+    color: #fff;
+    font-family: "Segoe UI",sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    letter-spacing: 0.2rem;
+    line-height: 1.2;
+    width: 70%;
+	max-width: 21.4rem;
+    padding: 1.4rem 2rem;
+	margin: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+}
+
+.rrss__logos {
+	margin: 1.5rem 0;	
+}
+
+.rrss__logos li {
+	display: inline-block;
+	margin-right: 1.6rem;
+}
+
+.rrss__img {
+	width: 3.2rem;
+	height: 3.2rem;
+}
+
+.footer-menu {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-menu > li {
+	width: 40%;
+	margin: 1.4rem auto 1.8rem auto;
+}
+
+.footer__menu__element > a { /* TITLE */
+	color: var(--white);
+	font-family: var(--mainTitleFont);
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 1.0rem 0;
+}
+
+.sub-menu > li > a {
+	color: var(--white);
+	font-family: var(--mainPFont);
+	font-size: 1.3rem;
+	font-weight: 300;
+	line-height: 1.6;
+}

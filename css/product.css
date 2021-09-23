@@ -1,0 +1,101 @@
+/* PRODUCT */
+
+.product-container__img {
+	
+}
+
+.product__info {
+    width: 80%;
+    margin: auto;
+}
+
+.product__cart {
+	background-color: #1a1919;
+	border: 0.1rem solid #1a1919;
+	color: #fff;
+	font-family: "Segoe UI",sans-serif;
+	font-size: 1.2rem;
+	font-style: normal;
+	letter-spacing: 0.2rem;
+	line-height: 1.2;
+	width: 100%;
+	max-width: 52rem;
+	padding: 1.4rem 2rem;
+	margin: 2rem 0;
+	text-align: center;
+	text-transform: uppercase;
+	transition: .2s ease-in-out;
+}
+
+.product__wishlist {
+	background-color: #1a1919;
+	border: 0.1rem solid #1a1919;
+	color: #fff;
+	font-family: "Segoe UI",sans-serif;
+	font-size: 1.2rem;
+	font-style: normal;
+	letter-spacing: 0.2rem;
+	line-height: 1.2;
+	width: 100%;
+	max-width: 52rem;
+	padding: 1.4rem 2rem;
+	margin: 2rem 0;
+	text-align: center;
+	text-transform: uppercase;
+	transition: .2s ease-in-out;
+}
+
+.products__dropdown {
+	margin: 5rem 0 ;
+}
+.product__dropdown {
+    border-top: solid #ddd 0.1rem;
+	padding: 0 2.5rem;
+}
+
+.product__dropdown:last-child {
+    border-bottom: solid #ddd 0.1rem;
+}
+
+.button__dropdown {
+	padding: 1.5rem 0;
+}
+
+.product__dropdown-title {
+    font-size: 1.7rem;
+}
+
+.dropdown__content {
+	height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease-in-out;
+}
+
+.dropdown__content-wrapper {
+	margin-bottom: 3rem;
+}
+
+.interesting-product {
+	text-align: center;
+	margin: 2rem 0 4rem 0;
+}
+
+.interesting-product-title {
+	font-size: 2rem;
+}
+
+.product-interesting {
+	width: 50%;
+	margin: 1rem auto;
+}
+
+.product-interesting__name {
+	font-size: 2rem;
+}
+
+.product-interesting__price {
+
+}
+
+.product-interesting__button {
+}
