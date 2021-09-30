@@ -74,7 +74,7 @@
 	margin: 1.4rem auto 1.8rem auto;
 }
 
-.footer__menu__element > a { /* TITLE */
+.footer-menu > li > a { /* TITLE */
 	color: var(--white);
 	font-family: var(--mainTitleFont);
 	font-size: 1.5rem;

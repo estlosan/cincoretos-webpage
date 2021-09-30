@@ -74,10 +74,10 @@
 }
 
 .nav__items.active {
-		left: 0%;
+	left: 0%;
 }
 
-.nav__item:not(:last-child) {
+.nav__items li:not(:last-child) {
 	border-bottom: 1px solid #c4c4c4;
 }
 

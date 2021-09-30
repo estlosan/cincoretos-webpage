@@ -1,4 +1,4 @@
-.banner {
+/* .banner {
 	position: relative;
 	height: 70vh;
 }
@@ -52,12 +52,23 @@
 	text-align: center;
 }
 
-.product__name {
+
+
+.product > a > h2 {
+	color: black;
 	font-size: 1.7rem;
 	text-transform: uppercase;
 	font-weight: 100;
 }
 
-.product__price {
+.product > a > .price {
+	color: black;
+	font-family: var(--mainPFont);
+    font-weight: 300;
+    line-height: 1.6;
 	text-align: center;
 }
+
+.onsale {
+	display: none;
+} */

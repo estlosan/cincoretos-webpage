@@ -18,14 +18,16 @@
 				</div>
 				<a href="#"><img class="logo__img" src="<?php echo get_template_directory_uri() ?>/images/logo.svg" alt="Logo 5retos"></a>
 			</div>
-			<ul class="nav__items">
-				<li class="nav__item"><a href="#"><i class="fas fa-syringe"></i>Cosmética</a></li>
-				<li class="nav__item"><a href="#"><i class="fas fa-magic"></i>Maquillaje</a></li>
-				<li class="nav__item"><a href="#"><i class="fas fa-paw"></i>Cosmética mascotas</a></li>
-				<li class="nav__item"><a href="#"><i class="fas fa-shopping-bag"></i>Accesorios</a></li>
-				<li class="nav__item"><a href="#"><i class="fas fa-headset"></i>Asesoramiento on-line</a></li>
-				<li class="nav__item"><a href="#"><i class="fas fa-comments"></i>Contacto</a></li>
-			</ul>
+			<?php wp_nav_menu( 
+					array( 
+						'theme_location' => 'header-menu',
+						'menu' => '',
+						'container' => '',
+						'menu_class' => 'nav__items',
+						'menu_id' => ''
+					) 
+				); 
+			?>
 			<div class="nav__icons">
 				<a href="#"><i class="fas fa-search"></i></a>
 				<a href="#"><i class="fas fa-user"></i></a>
